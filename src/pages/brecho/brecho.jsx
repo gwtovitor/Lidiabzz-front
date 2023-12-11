@@ -74,18 +74,18 @@ export default function Brecho() {
                 <div
                   key={1}
                   className={styles.divSlider}
-                  style={{ backgroundImage: `url(${`../../../public/Roupas/${roupa.id}/1.jpg`})` }}
+                  style={{ backgroundImage: `url(${`https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${roupa.id}/1.jpg?raw=true`})` }}
                 />
                 <div
                   key={2}
                   className={styles.divSlider}
-                  style={{ backgroundImage: `url(${`../../../public/Roupas/${roupa.id}/2.jpg`})` }}
+                  style={{ backgroundImage: `url(${`https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${roupa.id}/2.jpg?raw=true`})` }}
                 />
 
               </Slide> : <div
                 key={1}
                 className={styles.divSlider}
-                style={{ backgroundImage: `url(${`../../../public/Roupas/${roupa.id}/1.jpg`})` }}
+                style={{ backgroundImage: `url(${`https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${roupa.id}/1.jpg?raw=true`})` }}
               />
             }
 

@@ -27,8 +27,8 @@ export default function Modal({ onClose, item }) {
         }
     };
     const imagens = [
-        `../../../public/Roupas/${item.id}/1.jpg`,
-        `../../../public/Roupas/${item.id}/2.jpg`
+        `https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${item.id}/1.jpg?raw=true`,
+        `https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${item.id}/2.jpg?raw=true`
 
     ]
 
@@ -53,7 +53,7 @@ export default function Modal({ onClose, item }) {
                             <img key={index} src={imagem} alt={`Imagem ${index + 1}`} />
                         ))}
 
-                    </Carousel > : <img src={`../../../public/Roupas/${item.id}/1.jpg`}></img>}
+                    </Carousel > : <img src={`https://github.com/gwtovitor/Lidiabzz-front/blob/main/public/Roupas/${item.id}/1.jpg?raw=true`}></img>}
 
                     <div className={styles.wrapperInfo}>
                         <span className={styles.modalTitle}>{item.nome}</span>
