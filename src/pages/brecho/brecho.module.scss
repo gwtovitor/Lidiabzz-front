@@ -6,7 +6,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 100vw;
   height: 100vh;
   flex-direction: column;
@@ -22,10 +22,12 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    place-content: center;
+    // place-content: sta;
     width: 100%;
+    height: 100%;
     .wrapperItem {
       flex: 1;
+      height: 250px;
       border: 1px solid black;
       padding: 10px;
       margin: 10px;
