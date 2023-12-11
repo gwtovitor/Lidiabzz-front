@@ -2,52 +2,85 @@
   padding: 0;
   margin: 0;
 }
-
+.selected2{
+  background-color: #f0bacf !important;
+}
 .wrapper {
   display: flex;
-  justify-content: center;
-  align-items: start;
+  align-items: center;
   max-width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   // background-color: black;
-
-  div {
-    button {
-      // Your button styles here
-    }
+  .wrapperSelections {
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
   }
+  .btnSelecions {
+    font-weight: bold;
+    background-color: #ea4c89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
 
   .wrapperGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(10rem,100%), 1fr));
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
     justify-content: center;
-    width: 100%;
+    width: 95%;
     height: 100%;
-    
+    gap: 7px;
+
     .wrapperItem {
       min-width: 50%;
-      max-height: 280px;
-      border: 1px solid black;
       border-radius: 12px;
-      background-color:#D6DBDF ;
-      padding: 10px;
       display: flex;
+      justify-content: center;
       flex-direction: column;
-      .title{
+      margin-top: 24px;
+      .divSlider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        min-height: 250px;
+        border-radius: 8px;
+      }
+
+      .title {
         color: gray;
         font-size: 1.2rem;
         font-weight: bold;
         text-align: center;
         margin: 5px;
       }
-      .descricao{
+      .descricao {
         font-size: 0.8rem;
         text-align: center;
         margin: 2px;
       }
-      .valor{
+      .valor {
         color: red;
         font-weight: bold;
         text-align: center;

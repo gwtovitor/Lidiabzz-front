@@ -1,0 +1,87 @@
+// Fora da classe .wrapper
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+//   .wrapperImg{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+
+//   }
+.divSlider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 180px;
+}
+
+.modalContent {
+  // margin-top: 30%;
+  // align-self: center;
+  background: #fff;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 100%;
+  border-radius: 8px;
+  margin: 0 auto;
+  img {
+    max-width: 300px;
+  }
+}
+
+.btnComprar {
+  margin-top: 12px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #fff;
+  background-color: #15883e;
+  height: 48px;
+}
+.btnComprar:hover {
+  background-color: #1db954;
+}
+.wrapperInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modalDescricao {
+  font-size: 1rem;
+  margin: 12px;
+}
+
+.modalValor {
+  color: red;
+  font-weight: bold;
+}
