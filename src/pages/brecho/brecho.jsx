@@ -1,5 +1,5 @@
 // Brecho.js
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './brecho.module.scss';
 import { roupas } from './brecho.mock';
 import { Slide } from 'react-slideshow-image';
